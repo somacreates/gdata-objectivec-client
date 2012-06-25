@@ -229,7 +229,7 @@ static NSMutableDictionary *gQualifiedNameMap = nil;
       // to the cached copy of this object's attribute decls
     } else {
       GDATA_DEBUG_ASSERT(attributeDeclarations_ == nil, @"attrDecls previously set");
-      attributeDeclarations_ = [prevAttrDecls retain];
+      attributeDeclarations_ = (NSMutableArray*)[prevAttrDecls retain];
     }
 
     [self parseExtensionsForElement:element];

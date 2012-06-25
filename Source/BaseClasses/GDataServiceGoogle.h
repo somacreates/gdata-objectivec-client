@@ -193,7 +193,8 @@ enum {
                                       delegate:(id)delegate
                              didFinishSelector:(SEL)finishedSelector;
 
-#if NS_BLOCKS_AVAILABLE
+// TODO: Fix this. Should be NS_BLOCKS_AVAILABLE instead of 0.
+#if 0
 //
 // Blocks callback fetches
 //

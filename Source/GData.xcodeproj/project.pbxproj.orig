@@ -8087,6 +8087,10 @@
 				);
 				PRODUCT_NAME = GDataNetStaticLib;
 				SDKROOT = iphoneos;
+<<<<<<< HEAD
+				SKIP_INSTALL = YES;
+=======
+>>>>>>> e030be8
 			};
 			name = Debug;
 		};
@@ -8106,6 +8110,10 @@
 				);
 				PRODUCT_NAME = GDataNetStaticLib;
 				SDKROOT = iphoneos;
+<<<<<<< HEAD
+				SKIP_INSTALL = YES;
+=======
+>>>>>>> e030be8
 			};
 			name = Release;
 		};
@@ -8190,7 +8198,7 @@
 					SenTestingKit,
 				);
 				PRODUCT_NAME = GDataUnitTests;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx;
 				STRIP_STYLE = "non-global";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -8217,7 +8225,7 @@
 					SenTestingKit,
 				);
 				PRODUCT_NAME = GDataUnitTests;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx;
 				STRIP_STYLE = "non-global";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -8257,7 +8265,8 @@
 					"-DGDATA_IPHONE=1",
 				);
 				PRODUCT_NAME = GDataTouchStaticLib;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -8274,7 +8283,8 @@
 					"-DGDATA_INCLUDE_nameServiceHere_SERVICE=1",
 				);
 				PRODUCT_NAME = GDataTouchStaticLib;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -8347,7 +8357,7 @@
 					SenTestingKit,
 				);
 				PRODUCT_NAME = GDataIPhoneUnitTests;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = iphoneos;
 				STRIP_STYLE = "non-global";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -8377,7 +8387,7 @@
 					SenTestingKit,
 				);
 				PRODUCT_NAME = GDataIPhoneUnitTests;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = iphoneos;
 				STRIP_STYLE = "non-global";
 				WRAPPER_EXTENSION = octest;
 			};
