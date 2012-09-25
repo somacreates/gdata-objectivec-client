@@ -627,8 +627,7 @@ static NSString* gLoggingProcessName = nil;
         "&nbsp;&nbsp;&nbsp;MIMEType:</i><code> %@</code>%@<br>\n",
       statusString,
       [response MIMEType],
-      responseURLStr,
-      responseHeaders ? [responseHeaders description] : @""];
+      responseURLStr];
 
     // write the response headers, toggleable
     if ([responseHeaders count]) {

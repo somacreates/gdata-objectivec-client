@@ -1678,8 +1678,7 @@ totalBytesExpectedToWrite:(NSInteger)totalBytesExpectedToWrite {
           [self class], self,
           data_ ? [NSNumber numberWithInt:(int)[data_ length]] : nil,
           useDate_,
-          reservationStr,
-          [response_ URL]];
+          reservationStr];
 }
 
 // setters/getters
