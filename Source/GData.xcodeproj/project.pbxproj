@@ -8089,6 +8089,7 @@
 				);
 				PRODUCT_NAME = GDataNetStaticLib;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Wendif-labels",
@@ -8116,6 +8117,7 @@
 				);
 				PRODUCT_NAME = GDataNetStaticLib;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = (
 					"-Wall",
 					"-Wendif-labels",
@@ -8273,6 +8275,7 @@
 				);
 				PRODUCT_NAME = GDataTouchStaticLib;
 				SDKROOT = iphoneos3.0;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -8290,6 +8293,7 @@
 				);
 				PRODUCT_NAME = GDataTouchStaticLib;
 				SDKROOT = iphoneos3.0;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
